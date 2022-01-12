@@ -1,0 +1,54 @@
+﻿{
+  "compilerOptions": {
+    "lib": [
+      "es5",
+      "es6",
+      "dom"
+    ],
+    "outDir": "build",
+    "declarationDir": "src/declarations",
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "target": "es5",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "importHelpers": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    // "noImplicitAny": true,
+    "declaration": true,
+    "noFallthroughCasesInSwitch": true,
+    // "noImplicitReturns": true,
+    "stripInternal": true,
+    "pretty": true,
+    // "strictNullChecks": true,
+    "noUnusedLocals": true,
+    "downlevelIteration": true
+  },
+  "watch": true,
+  "watchOptions": {
+    // Use native file system events for files and directories
+    "watchFile": "useFsEvents",
+    "watchDirectory": "useFsEvents",
+    // Poll files for updates more frequently
+    // when they're updated a lot.
+    "fallbackPolling": "dynamicPriority",
+    // Don't coalesce watch notification
+    "synchronousWatchDirectory": true,
+    "excludeDirectories": [
+      "node_modules",
+      "build",
+      "src/client/api"
+    ],
+  },
+  "include": [
+    "src",
+  ],
+  "exclude": [
+    "build",
+    "src/declarations",
+    "src/client/api",
+    "node_modules"
+  ]
+}
