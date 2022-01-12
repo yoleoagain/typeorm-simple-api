@@ -1,6 +1,6 @@
 # Momet bonus
 
-## Simple typeorm API with generated fetchers and types
+## Simple typeorm API with generated fetchers and types for client part
 
 ### Setup
 
