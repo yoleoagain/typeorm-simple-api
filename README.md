@@ -1,7 +1,7 @@
 # Momet bonus
 
-## Simple typeorm API with generated fetchers and types for client part
-
+## Simple [typeorm](https://github.com/typeorm/typeorm) API with generated fetchers and types for client part.
+## Node server running on [fastify](https://www.fastify.io/) framework
 ### Setup
 
 - Install postgres
